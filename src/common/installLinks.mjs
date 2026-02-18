@@ -87,6 +87,9 @@ const MTV_DOCS_BASE =
 
 const RH_BASE = 'https://www.redhat.com/en';
 
+const RHACM_DOCS_BASE =
+  'https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_management_for_kubernetes/2.15/html';
+
 const links = {
   ROSA_CP_DOCS: 'https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4',
   OSD_GOOGLE_MARKETPLACE:
@@ -411,6 +414,10 @@ const links = {
   RH_ROSA_LEARN: `${RH_BASE}/technologies/cloud-computing/openshift/aws/learn`,
   RH_ROSA_INSTALL: `${RH_BASE}/products/interactive-walkthrough/install-rosa`,
   RH_ROSA_LIGHTBOARD: `${RH_BASE}/about/videos/rosa-lightboard`,
+
+  RHACM_DOCS: `${RHACM_DOCS_BASE}/about/welcome-to-red-hat-advanced-cluster-management-for-kubernetes`,
+  RHACM_HUB_CLUSTERS_DOCS: `${RHACM_DOCS_BASE}/about/welcome-to-red-hat-advanced-cluster-management-for-kubernetes#hub-cluster`,
+  RHACM_INSTALLATION_DOCS: `${RHACM_DOCS_BASE}/install/installing`,
 };
 
 // Tool identifiers are public — e.g. for linking to specific tool in DownloadsPage.
